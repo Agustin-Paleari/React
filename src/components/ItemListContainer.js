@@ -1,5 +1,6 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import ItemCount from "./ItemCount"
 
 
 class ItemListContainer extends React.Component { 
@@ -7,6 +8,7 @@ class ItemListContainer extends React.Component {
     return (
         <>
             {this.props.greetings}
+            <ItemCount />
         </>
     ); 
 }
