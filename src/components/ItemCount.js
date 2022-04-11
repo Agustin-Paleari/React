@@ -18,20 +18,20 @@ function ItemCount(){
     }
     return(
         <>
-        <div className="mx-auto mt-2 col-xl-1">
-            <div className="input-group">
-                <div className="input-group-prepend">
-                    <button className="btn btn-outline-dark" type="button" onClick={decNum}>-</button>
+        
+            <div className="input-group  ">
+                <div className="input-group-prepend ">
+                    <button className="btn btn-outline-dark btn-m " type="button" onClick={decNum}>-</button>
                 </div>
-                <input type="text" className="form-control text-center" value={num} onChange={handleChange}/>
+                <input type="text" className="form-control text-center " value={num} onChange={handleChange}/>
                 <div className="input-group-prepend">
-                    <button className="btn btn-outline-dark" type="button" onClick={incNum}>+</button>
+                    <button className="btn btn-outline-dark btn-m" type="button" onClick={incNum}>+</button>
                 </div>
                 <div className="input-group-prepend">
-                    <button className="btn btn-dark mt-2 ">Agregar al carrito</button>
+                    <button className="btn btn-dark mt-2 btn-sm ">Agregar al carrito</button>
                 </div> 
             </div>
-        </div>
+        
     </>
     );
 }
