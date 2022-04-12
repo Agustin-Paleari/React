@@ -1,5 +1,4 @@
-
-const data = [
+const products = [
   {
     id: 1,
     name: "Ender 3 " ,
@@ -39,7 +38,7 @@ const data = [
 ];
 
   module.exports = {
-    data,
+    products,
   }
 
 

@@ -1,15 +1,17 @@
 let is_ok = true;
 
-const {data} = require('./products.js');
 
-const customFetch = () => {
+
+const customFetch = (time, task) => {
     return new Promise((resolve, reject) => {
-        if (is_ok) {
-            resolve(data);
-        } else {
-            reject('KO');
-        }
-    })
-}
+        setTimeout(()=>{
+            if (is_ok) {
+                resolve(task);
+            } else {
+                reject('KO');
+            }
+        }, time)
+    });
+};
 
 export default customFetch

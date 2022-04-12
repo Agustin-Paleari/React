@@ -4,10 +4,10 @@ import ItemDetail from "./ItemDetail";
 const { products } = require("../utils/products");
 
 const ItemDetailContainer = () =>{
-    const[dato, setDato] = useState({});
+    const[dato, setDato] = useState([]);
 
     useEffect (() => {
-        customFetch (2000, products)
+        customFetch (2000, products[3])
             .then(result => setDato(result))
             .catch(error => console.log (error))
     }, []);
