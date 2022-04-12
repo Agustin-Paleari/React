@@ -10,7 +10,7 @@ const ItemDetail = ({ item }) => {
     return (
         <>
 
-                <div className="card col-4 " id={item.id}>
+        <div className="card col-4 " id={item.id}>
             <img className="card-img-top" src={item.pictureUrl} alt ="" />
             <div className="card-body">
                 <h4 className="card-title">{item.title}</h4>
