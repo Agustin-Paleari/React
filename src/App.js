@@ -1,8 +1,9 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import NavBar from"./components/NavBar.js"
-import ItemListContainer from './components/ItemListContainer.js'; 
-import ItemDetailContainer from './components/ItemDetailContainer';
+import NavBar from"./components/NavBar.jsx"
+import ItemListContainer from './components/ItemListContainer.jsx'; 
+import ItemDetailContainer from './components/ItemDetailContainer.jsx';
+
 
 
 function App() {
