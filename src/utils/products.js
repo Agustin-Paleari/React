@@ -33,7 +33,7 @@ const data = [
     stock:10 ,
     cost:300 ,
     description:"Impresora 3d Creality Ender-5 | La impresora 3d cúbica de nuevo diseño tiene un espacio de impresión más amplio en el eje Y, y es diferente de otras impresoras 3d FDM, su sistema de impresión superior e inferior es diferente.Es un producto ideal para personas a las que les gusta la instalación complicada y prueban la nueva impresión 3d." ,
-    image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fproyectocolor.com.ar%2Fproductos%2Fcreality-ender-5-pro%2F&psig=AOvVaw0VvsUHRWnYk2njV1TbkLhs&ust=1649451346177000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCPCg6p7rgvcCFQAAAAAdAAAAABAD" ,
+    image: "https://www.creality3dofficial.com/files/goods/20210917/Ender-5PRO.jpg" ,
     categoryId: 9,
   },
 ];

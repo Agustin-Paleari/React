@@ -7,7 +7,7 @@ function Items({ id, title, description, price, pictureUrl }) {
     }
     return (
         <div className="card col-4 " id={id}>
-            <img className="card-img-top" src={pictureUrl} alt =""></img>
+            <img className="card-img-top" src={pictureUrl} alt ="" />
             <div className="card-body">
                 <h4 className="card-title">{title}</h4>
                 <p className="card-text">{description}</p>

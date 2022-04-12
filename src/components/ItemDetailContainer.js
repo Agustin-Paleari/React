@@ -11,7 +11,7 @@ const ItemDetailContainer = () => {
         customFetch(2000, dato[1])
             .then(result => setDato(result))
             .catch(err => console.log(err))
-    }, []);
+    }, [dato]);
     
     return (
         <ItemDetail item={dato} />
