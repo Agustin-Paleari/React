@@ -1,5 +1,5 @@
 import ItemCount from './ItemCount';
-import { DetailContainer, WrapperDetail, ImgContainer, ImageDetail, InfoContainer, Title, Desc, Price } from './styledComponents';
+
 
 const ItemDetail = ({ item }) => {
 
@@ -16,6 +16,7 @@ const ItemDetail = ({ item }) => {
                 <h4 className="card-title">{item.title}</h4>
                 <p className="card-text">{item.description}</p>
                 <h5 className="card-subtitle">{item.price}</h5>
+                <ItemCount/>
             </div>
             
         </div>
